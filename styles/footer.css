@@ -1,0 +1,29 @@
+.footing{
+    margin:0;
+width:100%;
+background:#3e3e3e;
+height:140px;
+display: flex;
+flex-direction: column;
+justify-content: top;
+align-items: center;
+}
+.firstpart{
+    padding-top:15px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:25px;
+}
+.firstpart p,.footingtext{
+    font-family: 'Barlow Condensed';
+    color: white;
+    font-size: 14px;
+}
+.firstpart p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footingtext{
+    padding-top: 20px;
+}
